@@ -10,7 +10,6 @@ Make sure to learn what the starter code does!!
 
 
 body{
-  color: #000000;
   font-size: 16px;
   margin: 1.2em;
   font-family: 'Andika', sans-serif;
@@ -26,7 +25,7 @@ main{
 }
 
 h1{
-  color: #B21F50;
+  color: #B92751;
   font-size: 2em;
   text-align: center;
   line-height: 2;
@@ -69,15 +68,15 @@ table{
   padding: 10px;
 }
 
+tr:first-child{
+  border-top-left-radius: 10px;
+}
+
 .rowhead{
   text-align: center;
   vertical-align: middle;
   border-right: 2px solid #000000;
   border-top: 2px solid #000000;
-}
-
-.colhead: first-child{
-  border-top-left-radius: 10px;
 }
 
 td{
@@ -97,7 +96,6 @@ tr:nth-child(even) {
 tr:hover{
   background-color: rgb(126, 8, 32, 0.25);
 }
-
 
 *{
 }
