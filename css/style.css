@@ -16,8 +16,7 @@ body{
   background-size: cover ;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("../images/pigeon-background.jpeg");
-  background-color: #dddddd;
+  background-image: url("../images/pigeon-background.jpeg") #DDDDDD;
 }
 
 main{
@@ -25,6 +24,7 @@ main{
 }
 
 h1{
+  color: #B21F50;
   font-size: 2em;
   text-align: center;
   line-height: 2;
